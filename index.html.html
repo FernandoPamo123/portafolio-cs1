@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fernando Omar Pamo Calderón | Portafolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:linear-gradient(135deg,#020617,#0f172a,#1e293b);
+    color:#e2e8f0;
+}
+
+header{
+    text-align:center;
+    padding:60px 20px;
+    background:rgba(0,0,0,.3);
+    backdrop-filter:blur(10px);
+    border-bottom:2px solid #38bdf8;
+}
+
+header h1{
+    font-size:3rem;
+    color:#38bdf8;
+}
+
+header p{
+    margin-top:10px;
+    color:#cbd5e1;
+}
+
+nav{
+    margin-top:25px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+section{
+    margin:40px 0;
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(10px);
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 0 20px rgba(0,0,0,.3);
+}
+
+h2{
+    color:#38bdf8;
+    margin-bottom:20px;
+}
+
+.card{
+    background:#1e293b;
+    padding:20px;
+    margin-top:15px;
+    border-radius:15px;
+    border-left:4px solid #38bdf8;
+}
+
+ul{
+    margin-left:25px;
+}
+
+li{
+    margin-bottom:10px;
+}
+
+a{
+    color:#38bdf8;
+}
+
+a:hover{
+    color:white;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.skill{
+    background:#0ea5e9;
+    color:white;
+    padding:10px 15px;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    margin-top:50px;
+    border-top:1px solid #334155;
+}
+
+.github-btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 25px;
+    background:#38bdf8;
+    color:#000;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.github-btn:hover{
+    background:white;
+}
+
+@media(max-width:768px){
+    header h1{
+        font-size:2rem;
+    }
+
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Fernando Omar Pamo Calderón</h1>
+    <p>💻 Estudiante de Ciencia de la Computación | UCSP</p>
+
+```
+<nav>
+    <a href="#presentacion">Presentación</a>
+    <a href="#formacion">Formación</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#profesores">Profesores</a>
+    <a href="#companeros">Compañeros</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+```
+
+</header>
+
+<div class="container">
+
+<section id="presentacion">
+    <h2>👨‍💻 Presentación</h2>
+
+```
+<p>
+    Tengo <strong>18 años</strong> y soy estudiante de
+    <strong>primer semestre de Ciencia de la Computación</strong>
+    en la Universidad Católica San Pablo (Arequipa, Perú).
+</p>
+
+<br>
+
+<p>
+    Tengo un profundo interés por la investigación de vulnerabilidades de datos,
+    el hacking ético y la ciberseguridad. Disfruto estructurar proyectos de programación
+    en Python y C++, explorando soluciones innovadoras para problemas tecnológicos.
+</p>
+
+<br>
+
+<p>
+    Mi objetivo es continuar mi especialización tecnológica,
+    aportando en desarrollo de software, innovación,
+    análisis de datos y ciberseguridad.
+</p>
+```
+
+</section>
+
+<section id="formacion">
+    <h2>📚 Formación y Certificaciones</h2>
+
+```
+<div class="card">
+    <h3>Semestre 1 - UCSP</h3>
+    <ul>
+        <li>Introducción a la Ciencia de la Computación</li>
+        <li>Introducción a Vida Universitaria</li>
+        <li>Fundamentos Matemáticos para Computación</li>
+        <li>Fundamentos de Programación</li>
+        <li>Lógica</li>
+        <li>Comunicación I</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h3>🏆 Certificaciones</h3>
+    <ul>
+        <li>Francés B2 - Alianza Francesa</li>
+        <li>Inglés B2 - Natural English</li>
+        <li>CS50: Introduction to Computer Science</li>
+    </ul>
+</div>
+```
+
+</section>
+
+<section id="proyectos">
+    <h2>🚀 Proyectos</h2>
+
+```
+<div class="card">
+    <h3>Analizador de Vulnerabilidades Web</h3>
+    <p>
+        Herramienta desarrollada en Python para identificar posibles vulnerabilidades,
+        encabezados inseguros y configuraciones de riesgo en aplicaciones web.
+    </p>
+</div>
+
+<div class="card">
+    <h3>Sistema de Gestión de Biblioteca</h3>
+    <p>
+        Aplicación desarrollada en C++ utilizando programación orientada a objetos
+        para administrar préstamos, usuarios y registros.
+    </p>
+</div>
+
+<div class="card">
+    <h3>Dashboard de Análisis de Datos</h3>
+    <p>
+        Plataforma para visualizar métricas y tendencias mediante gráficos
+        interactivos y procesamiento de datos.
+    </p>
+</div>
+```
+
+</section>
+
+<section id="habilidades">
+    <h2>⚡ Habilidades</h2>
+
+```
+<div class="skills">
+    <span class="skill">Python</span>
+    <span class="skill">C++</span>
+    <span class="skill">HTML5</span>
+    <span class="skill">CSS3</span>
+    <span class="skill">Git</span>
+    <span class="skill">GitHub</span>
+    <span class="skill">Ciberseguridad</span>
+    <span class="skill">Análisis de Datos</span>
+</div>
+```
+
+</section>
+
+<section id="profesores">
+    <h2>👨‍🏫 Profesores y Referencias</h2>
+
+```
+<div class="card">
+    <h3>Ernesto Cuadros-Vargas</h3>
+    <a href="https://socios.spc.org.pe/ecuadros/homepage.html" target="_blank">
+        🌐 Sitio Web
+    </a>
+</div>
+
+<div class="card">
+    <h3>Rosmery Violeta Quispe Zavala</h3>
+    <a href="https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=320559" target="_blank">
+        🔬 Perfil Académico
+    </a>
+</div>
+```
+
+</section>
+
+<section id="companeros">
+    <h2>🤝 Compañeros</h2>
+
+```
+<div class="card">
+    <a href="https://skilexz.github.io/Pablo-Joaquin-Gutierrez-Pilco/" target="_blank">
+        🌐 Pablo Joaquín Gutiérrez Pilco
+    </a>
+</div>
+```
+
+</section>
+
+<section id="contacto">
+    <h2>📬 Contacto</h2>
+
+```
+<p><strong>Correo:</strong> fernando.pamo@ucsp.edu.pe</p>
+<p><strong>Ubicación:</strong> Arequipa, Perú</p>
+
+<a class="github-btn"
+   href="https://github.com/FernandoPamo123"
+   target="_blank">
+   🐙 Ver mi GitHub
+</a>
+```
+
+</section>
+
+</div>
+
+<footer>
+    <p>© 2026 Fernando Omar Pamo Calderón</p>
+</footer>
+
+</body>
+</html>
